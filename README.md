@@ -1,4 +1,4 @@
-## 使用
+## 用法
 ```javascript
 //导入
 import asyncPool from "../lib/index";
@@ -7,12 +7,12 @@ import asyncPool from "../lib/index";
     要并发处理的可迭代对象
  handler
     function 异步处理函数,返回promise,
- limit
+ workers
     Number 并发数
  返回值
     Array<Promise> limit个promise数组
 */
-asyncPool(myIterator,handler,limit);
+asyncPool(myIterator,handler,workers);
 ```
 
 ## 使用场景
