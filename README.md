@@ -1,6 +1,18 @@
-## 导入
+## 使用
 ```javascript
-import asyncPool from "asyncPool";
+//导入
+import asyncPool from "../lib/index";
+/* 参数
+ myIterator
+    要并发处理的可迭代对象
+ handler
+    function 异步处理函数,返回promise,
+ limit
+    Number 并发数
+ 返回值
+    Array<Promise> limit个promise数组
+*/
+asyncPool(myIterator,handler,limit);
 ```
 
 ## 使用场景

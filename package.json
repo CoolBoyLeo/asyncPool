@@ -2,7 +2,7 @@
   "name": "asyncpool",
   "version": "1.0.0",
   "description": "基于async/await/iterator实现的异步请求池",
-  "main": "asyncPool.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
