@@ -24,7 +24,7 @@
             });
         }
 
-        Promise.all(asyncPool(imgs.values(),loadImg,5)).then(() => console.log('done'))
+        Promise.all(asyncPool(imgs,loadImg,5)).then(() => console.log('done'))
     </script>
 </head>
 <body>
